@@ -4,7 +4,7 @@ import smtplib
 import os
 from config import *
 
-os.chdir(r"F:\Educational\Pycharm\Telegram Bot\Mini Projects\Auto Birthday Wisher")
+os.chdir(r"F:\Educational\Pycharm\Auto Birthday Wisher")
 # os.mkdir("checking") 
 
 

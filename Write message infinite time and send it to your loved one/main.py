@@ -1,8 +1,12 @@
 import pyautogui
 import time
 
-while True:
-    time.sleep(3)
-    pyautogui.typewrite('I Love You Sona.')
+text = "gheu gheu!"
+time_limit = 10
+
+while time_limit:
+    time_limit -= 1
+    time.sleep(1)
+    pyautogui.typewrite(text)
     pyautogui.press('enter')
-    print('I Love You Sona.')
+    print(text)
